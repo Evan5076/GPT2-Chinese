@@ -9,7 +9,7 @@ from datetime import datetime
 from tqdm import tqdm
 from torch.nn import DataParallel
 
-
+# 123
 def build_files(data_path, tokenized_data_path, num_pieces, full_tokenizer, min_length):
     if not os.path.exists(tokenized_data_path):
         os.mkdir(tokenized_data_path)
